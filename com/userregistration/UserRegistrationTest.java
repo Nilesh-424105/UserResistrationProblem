@@ -1,5 +1,9 @@
 package com.userregistration;
 
+/*
+ * As a User need to enter a valid First Name
+ */
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -11,9 +15,9 @@ public class UserRegistrationTest {
 		UserRegistration user = new UserRegistration();
 		// Regular Expression For First Name
 		String regex = "^[A-Z]{1}[A-Za-z]{2,}";
-		// Assign Regex in Pattern
+		// Assign regex in Pattern
 		Pattern pattern = Pattern.compile(regex);
-		// Match Regex and User Input
+		// Match regex and User Input
 		Matcher matcher = pattern.matcher(user.inputMethod());
 		// Result is in true and false
 		boolean result = matcher.matches();

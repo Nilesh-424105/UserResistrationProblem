@@ -12,6 +12,7 @@ public class UserRegistration {
 		System.out.println("Enter First Name: ");
 		// Assign User Input in Variable
 		String firstName = sc.nextLine();
+		// Return First Name
 		return firstName;
 
 	}
