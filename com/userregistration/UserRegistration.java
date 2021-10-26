@@ -9,11 +9,11 @@ public class UserRegistration {
 
 		// Take Input From User
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter First Name: ");
+		System.out.println("Enter Last Name: ");
 		// Assign User Input in Variable
-		String firstName = sc.nextLine();
+		String lasttName = sc.nextLine();
 		// Return First Name
-		return firstName;
+		return lasttName;
 
 	}
 

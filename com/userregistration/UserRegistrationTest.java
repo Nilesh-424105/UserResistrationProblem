@@ -13,7 +13,7 @@ public class UserRegistrationTest {
 
 		// Creation Of Object
 		UserRegistration user = new UserRegistration();
-		// Regular Expression For First Name
+		// Regular Expression For Last Name
 		String regex = "^[A-Z]{1}[A-Za-z]{2,}";
 		// Assign regex in Pattern
 		Pattern pattern = Pattern.compile(regex);
@@ -22,7 +22,7 @@ public class UserRegistrationTest {
 		// Result is in true and false
 		boolean result = matcher.matches();
 		// print result
-		System.out.println("Your First Name Is : " + result);
+		System.out.println("Your Last Name Is : " + result);
 
 	}
 }
